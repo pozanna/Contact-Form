@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Import de la police -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contact form</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <form>
+        <h1>Contact form</h1>
+        <form>
+          <input
+            type="text"
+            id="last-name"
+            name="last-name"
+            placeholder="Last name"
+            required
+          /><br />
+          <input
+            type="text"
+            id="first-name"
+            name="first-name"
+            placeholder="First name"
+            required
+          /><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="E-mail"
+            required
+          /><br />
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            placeholder="Subject"
+            required
+          /><br />
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Your message"
+            required
+          ></textarea
+          ><br />
+          <input type="submit" value="Send your message" />
+        </form>
+      </form>
+    </div>
+  </body>
+</html>
